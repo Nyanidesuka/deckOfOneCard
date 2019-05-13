@@ -12,6 +12,9 @@
 		17F5E02E2289D05800FF18B1 /* deckOfOneCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17F5E02C2289D05800FF18B1 /* deckOfOneCard.xcdatamodeld */; };
 		17F5E0302289D05A00FF18B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F5E02F2289D05A00FF18B1 /* Assets.xcassets */; };
 		17F5E0332289D05A00FF18B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F5E0312289D05A00FF18B1 /* LaunchScreen.storyboard */; };
+		17F5E03C2289D53400FF18B1 /* SWAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5E03B2289D53400FF18B1 /* SWAPIViewController.swift */; };
+		17F5E03E2289D80600FF18B1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5E03D2289D80600FF18B1 /* Person.swift */; };
+		17F5E0402289DA0900FF18B1 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5E03F2289DA0900FF18B1 /* PersonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		17F5E02F2289D05A00FF18B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17F5E0322289D05A00FF18B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17F5E0342289D05A00FF18B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F5E03B2289D53400FF18B1 /* SWAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWAPIViewController.swift; sourceTree = "<group>"; };
+		17F5E03D2289D80600FF18B1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		17F5E03F2289DA0900FF18B1 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				17F5E0292289D05800FF18B1 /* Main.storyboard */,
+				17F5E0412289DA1200FF18B1 /* Model */,
+				17F5E0422289DA1900FF18B1 /* ModelController */,
+				17F5E03B2289D53400FF18B1 /* SWAPIViewController.swift */,
 				17F5E03A2289D08600FF18B1 /* Resources */,
 				17F5E02C2289D05800FF18B1 /* deckOfOneCard.xcdatamodeld */,
 			);
@@ -70,6 +79,22 @@
 				17F5E0342289D05A00FF18B1 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		17F5E0412289DA1200FF18B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17F5E03D2289D80600FF18B1 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17F5E0422289DA1900FF18B1 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				17F5E03F2289DA0900FF18B1 /* PersonController.swift */,
+			);
+			path = ModelController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +170,9 @@
 			files = (
 				17F5E02E2289D05800FF18B1 /* deckOfOneCard.xcdatamodeld in Sources */,
 				17F5E0262289D05800FF18B1 /* AppDelegate.swift in Sources */,
+				17F5E03E2289D80600FF18B1 /* Person.swift in Sources */,
+				17F5E0402289DA0900FF18B1 /* PersonController.swift in Sources */,
+				17F5E03C2289D53400FF18B1 /* SWAPIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
