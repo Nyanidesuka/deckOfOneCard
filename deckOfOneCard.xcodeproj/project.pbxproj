@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		17F5E0262289D05800FF18B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5E0252289D05800FF18B1 /* AppDelegate.swift */; };
-		17F5E0282289D05800FF18B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5E0272289D05800FF18B1 /* ViewController.swift */; };
 		17F5E02B2289D05800FF18B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F5E0292289D05800FF18B1 /* Main.storyboard */; };
 		17F5E02E2289D05800FF18B1 /* deckOfOneCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17F5E02C2289D05800FF18B1 /* deckOfOneCard.xcdatamodeld */; };
 		17F5E0302289D05A00FF18B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F5E02F2289D05A00FF18B1 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		17F5E0222289D05800FF18B1 /* deckOfOneCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deckOfOneCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F5E0252289D05800FF18B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17F5E0272289D05800FF18B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17F5E02A2289D05800FF18B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17F5E02D2289D05800FF18B1 /* deckOfOneCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = deckOfOneCard.xcdatamodel; sourceTree = "<group>"; };
 		17F5E02F2289D05A00FF18B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,15 +54,22 @@
 		17F5E0242289D05800FF18B1 /* deckOfOneCard */ = {
 			isa = PBXGroup;
 			children = (
-				17F5E0252289D05800FF18B1 /* AppDelegate.swift */,
-				17F5E0272289D05800FF18B1 /* ViewController.swift */,
 				17F5E0292289D05800FF18B1 /* Main.storyboard */,
-				17F5E02F2289D05A00FF18B1 /* Assets.xcassets */,
-				17F5E0312289D05A00FF18B1 /* LaunchScreen.storyboard */,
-				17F5E0342289D05A00FF18B1 /* Info.plist */,
+				17F5E03A2289D08600FF18B1 /* Resources */,
 				17F5E02C2289D05800FF18B1 /* deckOfOneCard.xcdatamodeld */,
 			);
 			path = deckOfOneCard;
+			sourceTree = "<group>";
+		};
+		17F5E03A2289D08600FF18B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17F5E0252289D05800FF18B1 /* AppDelegate.swift */,
+				17F5E02F2289D05A00FF18B1 /* Assets.xcassets */,
+				17F5E0312289D05A00FF18B1 /* LaunchScreen.storyboard */,
+				17F5E0342289D05A00FF18B1 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +144,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				17F5E02E2289D05800FF18B1 /* deckOfOneCard.xcdatamodeld in Sources */,
-				17F5E0282289D05800FF18B1 /* ViewController.swift in Sources */,
 				17F5E0262289D05800FF18B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39YHWYH93Z;
-				INFOPLIST_FILE = deckOfOneCard/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/deckOfOneCard/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39YHWYH93Z;
-				INFOPLIST_FILE = deckOfOneCard/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/deckOfOneCard/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
